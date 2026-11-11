@@ -54,3 +54,39 @@ prices={
 
 goal=100
 coins=10
+
+print("Вы владелец магической лавки.")
+print("Ваша задача варить зелья для клиентов и получать за это монеты.")
+print("Вы должны соединять ингредеенты в котле но если смешаете неправильно котел взорвется.")
+
+# Функции  
+def show_menu():   
+    print("\n=== МЕНЮ ===")
+    print("1. Собрать ингредиенты")
+    print("2. Сварить зелье")
+    print("3. Выполнить заказ")
+    print("4. Показать статус")
+    print("5. Выйти")
+    return input("Выберите действие: ")  
+show_menu()
+
+def gather_ingredients():
+    print('')
+
+def  brew_potion():
+    print('')
+
+def fulfill_order():
+    print('')
+
+def show_status():
+    print('')
+
+def exit():
+    print('')
+
+def main():
+    global goal
+    print(f"Цель:заработать {goal} монет")
+    global coins
+
